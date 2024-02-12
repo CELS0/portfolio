@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atenção Primária à Saúde</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .openModal {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .openModal:hover {
+            background-color: #0056b3;
+        }
+
+
+        /* Estilos para o modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            border-radius: 5px;
+            line-height: 1.5;
+            /* Espaçamento 1.5 */
+            text-align: justify;
+            /* Texto justificado */
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        img {
+            max-width: 40%;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Atenção Primária à Saúde e sua Importância</h1>
+        <p>Meu nome é Celso Dias de Souza Júnior, e através da minha trajetória e interesse em tecnologia e medicina,
+            vejo a importância da integração dessas áreas na promoção da saúde.</p>
+    </header>
+
+    <section>
+        <h2>Atenção Primária à Saúde (APS) e Estratégia Saúde da Família (ESF)</h2>
+        <p>A Atenção Primária à Saúde (APS) e a Estratégia Saúde da Família (ESF) são componentes fundamentais do
+            sistema de saúde brasileiro...</p>
+        <button class="openModal">Leia mais</button>
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Atenção Primária à Saúde (APS) e Estratégia Saúde da Família (ESF)</h2>
+                <img src="aps-esf.png" alt="Atenção Primária à Saúde e Estratégia Saúde da Família">
+                A Atenção Primária à Saúde (APS) e a Estratégia Saúde da Família (ESF) são componentes fundamentais do
+                sistema de saúde brasileiro, com o objetivo de oferecer cuidados de saúde essenciais e integrais à
+                população. A APS é definida como o nível mais próximo das pessoas, famílias e comunidades, capaz de
+                resolver a maioria dos problemas de saúde e coordenar os serviços de saúde em diferentes níveis. O
+                conceito de APS remonta ao Relatório Dawson de 1920, que propôs o desenho regionalizado de centros de
+                saúde primários com médicos generalistas, integrando serviços preventivos e curativos. A partir da
+                década de 1920, foram estabelecidos postos de profilaxia e saneamento rural, separando as ações de saúde
+                pública das ambulatoriais.
+
+                Entretanto, ao longo do tempo, diversas iniciativas, como a Fundação Rockefeller, limitaram as ações de
+                saúde a problemas específicos, ignorando as particularidades locais. A Declaração de Alma-Ata em 1978
+                redefiniu a APS como uma abordagem abrangente e integral, baseada em métodos cientificamente comprovados
+                e socialmente aceitáveis, com participação plena da comunidade.
+
+                A ESF, por sua vez, foi implementada no Brasil como parte da APS, com o objetivo de garantir o acesso
+                universal aos serviços de saúde, promovendo ações preventivas e curativas com foco na família e na
+                comunidade. Inicialmente, o Programa Saúde da Família (PSF) foi implantado de forma seletiva, com
+                recursos limitados e baixa articulação com outros serviços de saúde.
+
+                No entanto, a partir da década de 1990, o PSF foi fortalecido como uma estratégia central do Sistema
+                Único de Saúde (SUS), incentivando a reorganização dos serviços de saúde com base na territorialidade e
+                na integralidade da atenção. Como observado na unidade de saúde do Tatu, zona rural de Barreiras-BA. A
+                Norma Operacional Básica de 1996 estabelece diretrizes para a implementação do PSF, priorizando a
+                atenção primária como estratégia de organização do sistema de saúde.
+
+                Apesar dos avanços, a implementação da ESF enfrenta desafios, como a necessidade de profissionalização
+                dos agentes comunitários de saúde, a fixação de profissionais de saúde nas equipes e políticas de
+                formação e educação permanente. Além disso, persistem pressões por uma APS focalizada e seletiva, em
+                detrimento de uma abordagem integral e comunitária.
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Território e Territorialização em Saúde</h2>
+        <p>O conceito de território em saúde vai além de uma delimitação geográfica, envolvendo a interação entre o
+            espaço físico e a identidade das comunidades que o habitam...</p>
+        <button class="openModal">Leia mais</button>
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Território e Territorialização em Saúde</h2>
+                <img src="territorio-saude.png" alt="Território e Territorialização em Saúde">
+                O conceito de território em saúde vai além de uma delimitação geográfica, envolvendo a interação entre o
+                espaço físico e a identidade das comunidades que o habitam. A ocupação de um território implica em
+                mudanças significativas no modo de vida das pessoas, podendo beneficiar alguns grupos e prejudicar
+                outros.
+
+                A segregação residencial, caracterizada pela separação sistemática de grupos raciais ou socioeconômicos
+                em espaços urbanos distintos, é uma expressão das disparidades sociais e raciais em saúde. Essa
+                segregação limita a interação entre grupos, restringe o acesso a recursos e contribui para a perpetuação
+                de desigualdades e iniquidades em saúde.
+
+                As áreas de risco são partes de um território com maior propensão a eventos indesejados, como poluição,
+                violência, desemprego e falta de acesso a serviços básicos. A análise do território em saúde implica na
+                compreensão desses riscos e na mobilização coletiva para buscar soluções.
+
+                A territorialização em saúde é um processo que envolve o reconhecimento do território e a compreensão
+                das condições de vida e saúde da população que o habita. Isso inclui a coleta de dados, entrevistas com
+                informantes-chave e observação in loco para identificar as necessidades e demandas específicas de cada
+                comunidade.
+
+                A análise situacional em saúde, que é permanente, interdisciplinar e contextualizada, envolve diversas
+                dimensões, como demográfica, socioeconômica, epidemiológica, socioambiental, assistencial e
+                infraestrutura, além dos aspectos políticos. Essa análise visa subsidiar ações e políticas de saúde mais
+                eficazes e adequadas à realidade de cada território.
+
+                O mapeamento das informações do território, através de mapas esquemáticos ou croquis, é uma ferramenta
+                importante para visualizar e compreender as características e necessidades específicas de cada
+                localidade, auxiliando na elaboração e implementação de intervenções em saúde mais assertivas e
+                direcionadas.
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Família</h2>
+        <p>Ao longo dos anos, a família brasileira tem passado por transformações significativas devido a diversos
+            fatores sociais e culturais...</p>
+        <button class="openModal">Leia mais</button>
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Família</h2>
+                <img src="familia.jpg" alt="Família">
+                Ao longo dos anos, a família brasileira tem passado por transformações significativas devido a diversos
+                fatores sociais e culturais.
+
+                Inicialmente, observa-se uma diminuição no número de nascimentos, consequência do aumento da expectativa
+                de vida e do uso de contraceptivos, resultando em famílias menores.
+
+                Além disso, houve um aumento no nível de escolaridade das mulheres, o que resultou em uma menor
+                dependência econômica e uma mudança nos padrões de casamento, com uma diminuição na taxa de casamentos
+                na faixa etária de 15 a 24 anos e um aumento na taxa de divórcio e recasamento.
+
+                Essas modificações influenciaram diretamente na configuração das famílias brasileiras atuais, com um
+                aumento no número de pessoas que moram sozinhas, casais sem filhos e casos de adoção.
+
+                Também ocorreram mudanças legais, como a alteração do código civil, que substituiu o pátrio poder pelo
+                poder familiar, eliminando a distinção entre filhos legítimos e ilegítimos, e permitindo a determinação
+                da paternidade por DNA, proporcionando maior proteção contra abusos familiares.
+
+                Além disso, a família tem sido representada de forma diversificada nos meios de comunicação, refletindo
+                a pluralidade de estruturas familiares na sociedade contemporânea.
+
+                No entanto, também enfrenta desafios, como a violência intrafamiliar, que demanda uma abordagem
+                integrada e sensível por parte dos órgãos governamentais e da sociedade.
+
+                Em suma, a família é um espaço de apoio, proteção, conflitos e aprendizado, que continua a se adaptar às
+                mudanças sociais e culturais, mantendo sua importância como unidade básica da sociedade.
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Educação e Comunicação Popular em Saúde</h2>
+        <p>A intersecção entre Educação e Comunicação Popular em Saúde representa uma abordagem essencialmente
+            democrática e participativa...</p>
+        <button class="openModal">Leia mais</button>
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Educação e Comunicação Popular em Saúde</h2>
+                <img src="educacao-comunicacao.png" alt="Educação e Comunicação Popular em Saúde">
+                A intersecção entre Educação e Comunicação Popular em Saúde representa uma abordagem essencialmente
+                democrática e participativa, reconhecendo a diversidade de saberes e experiências dos diferentes grupos
+                sociais. Enquanto a Educação Sanitária tradicionalmente adotava uma abordagem vertical e autoritária,
+                centrada na transmissão de informações e no controle social, a Educação Popular em Saúde busca promover
+                a conscientização, a autonomia e a mobilização das comunidades para o enfrentamento das desigualdades em
+                saúde.
+
+                A Educação Sanitária, surgida no século XIX e intensificada ao longo do século XX, priorizava a
+                higienização das cidades e das pessoas como forma de controle das doenças, culpabilizando os indivíduos
+                por seus problemas de saúde e desconsiderando as condições sociais, econômicas e políticas que
+                influenciam a saúde da população. Por outro lado, a Educação Popular em Saúde surge como uma abordagem
+                crítica e participativa, que reconhece os saberes prévios das comunidades e busca promover a reflexão, o
+                diálogo e a ação coletiva para a construção de uma sociedade mais justa e saudável.
+
+                A Política Nacional de Educação Popular em Saúde valoriza o protagonismo das comunidades na construção
+                de conhecimento e práticas de saúde, incentivando a participação, o diálogo e a solidariedade como
+                elementos fundamentais para o fortalecimento do vínculo entre profissionais de saúde e usuários. Além
+                disso, busca promover uma leitura crítica da realidade e a construção coletiva de propostas de
+                enfrentamento das desigualdades em saúde, visando à emancipação e à transformação social.
+
+                Por sua vez, a Comunicação Popular e Comunitária emerge como uma ferramenta essencial para a
+                disseminação de informações e o fortalecimento do protagonismo das comunidades na promoção da saúde.
+                Diferentemente da comunicação comercial, que muitas vezes negligencia questões específicas das
+                comunidades, a comunicação popular e comunitária busca dar voz aos grupos marginalizados, abordando suas
+                realidades de forma contextualizada e engajada. Por meio de diversos meios de comunicação, desde
+                pequenos veículos locais até espaços nos meios de comunicação de massa, essa abordagem visa
+                sensibilizar, informar e mobilizar as comunidades para a promoção da saúde e a defesa de seus direitos.
+
+                Em suma, a Educação e Comunicação Popular em Saúde representam abordagens essenciais para a construção
+                de uma sociedade mais justa, igualitária e saudável, reconhecendo a importância da participação e do
+                empoderamento das comunidades na promoção da saúde e no enfrentamento das desigualdades sociais.
+
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>NASF e e-Multi</h2>
+        <p>O NASF (Núcleo de Apoio à Saúde da Família) é uma estratégia que visa ampliar a capacidade das equipes de
+            Saúde da Família em atender as necessidades de saúde da população em seu território de atuação...</p>
+        <button class="openModal">Leia mais</button>
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>NASF e e-Multi</h2>
+                <img src="nasf-emulti.png" alt="NASF e e-Multi">
+                O NASF (Núcleo de Apoio à Saúde da Família) é uma estratégia que visa ampliar a capacidade das equipes
+                de Saúde da Família em atender as necessidades de saúde da população em seu território de atuação. Ele
+                busca incorporar novos conhecimentos e práticas para contribuir com a integralidade da atenção à saúde.
+                Composta por profissionais de diversas áreas, como assistentes sociais, farmacêuticos, fisioterapeutas,
+                nutricionistas, entre outros, o NASF atua em diferentes dimensões: pedagógica, terapêutica e
+                institucional. No entanto, suas atividades enfrentam desafios como infraestrutura limitada, gestão do
+                trabalho e compreensão variada do seu papel por parte dos profissionais e usuários.
+
+                eMulti (Equipes Multidisciplinares)
+
+                As eMulti, por sua vez, representam uma ressignificação do acesso ao cuidado integral e longitudinal na
+                Atenção Primária à Saúde (APS), destacando a importância da multiprofissionalidade e das especialidades
+                para abordar desde a promoção da saúde até o tratamento e reabilitação. Elas atuam de maneira
+                complementar e integrada às demais equipes da APS, em articulação interinstitucional e com a rede de
+                atenção à saúde. Com diretrizes que visam facilitar o acesso, promover a integralidade da atenção,
+                ampliar o escopo de práticas em saúde e contribuir para a resolutividade da APS, as eMulti priorizam
+                ações como atendimento individual e em grupo, visitas domiciliares, apoio matricial, discussão de casos
+                e práticas interinstitucionais. Além disso, recomendam o uso de tecnologias da informação e comunicação
+                (TICs) e a presença de especialistas em áreas específicas, como cardiologia, psicologia, ginecologia,
+                entre outros, para garantir uma abordagem abrangente e eficaz.
+
+                Potencialidades e Desafios da e-Multi
+
+                As e-Multi apresentam potencialidades significativas, como a possibilidade de oferecer cuidados mais
+                abrangentes e especializados na APS, favorecendo o acesso da população a uma gama mais ampla de serviços
+                de saúde. Além disso, ao integrar diferentes profissionais e especialidades, elas podem contribuir para
+                uma atenção mais completa e resolutiva, promovendo uma abordagem mais holística da saúde. No entanto,
+                enfrentam desafios, como a necessidade de uma articulação eficaz entre os diversos atores envolvidos,
+                infraestrutura adequada, qualificação dos profissionais e garantia de acesso equitativo aos serviços,
+                especialmente para populações vulneráveis e em áreas remotas.
+
+                Em suma, as e-Multi representam uma estratégia promissora para fortalecer a APS e garantir o acesso
+                equitativo e integral aos serviços de saúde, desde a promoção até a reabilitação, contribuindo para a
+                melhoria da qualidade de vida e o bem-estar da população.
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Obtém os botões que abrem os modais
+        var modalBtns = document.querySelectorAll('.openModal');
+        // Adiciona um listener de evento de clique a cada botão
+        modalBtns.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                // Obtém o modal correspondente a este botão
+                var modal = btn.nextElementSibling;
+                // Define o estilo do modal como "display: block" para torná-lo visível
+                modal.style.display = "block";
+            });
+        });
+
+        // Obtém todos os elementos com a classe 'close' (botões de fechar)
+        var closeBtns = document.querySelectorAll('.close');
+        // Adiciona um listener de evento de clique a cada botão de fechar
+        closeBtns.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                // Obtém o modal pai do botão de fechar
+                var modal = btn.parentElement;
+                // Define o estilo do modal como "display: none" para escondê-lo
+                modal.style.display = "none";
+            });
+        });
+
+        // Adiciona um listener de evento de clique para fechar o modal se o usuário clicar fora dele
+        window.addEventListener('click', function (e) {
+            // Se o usuário clicar fora do conteúdo do modal...
+            if (e.target.classList.contains('modal')) {
+                // Fecha o modal
+                e.target.style.display = "none";
+            }
+        });
+    </script>
+</body>
+
+</html>
